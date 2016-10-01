@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "tsc -p .",
-    "example": "tsc -p example && babel example -d example",
+    "example": "tsc -p example && babel example/**/*.jsx -d .",
     "lint": "tslint --project . && tslint --project example"
   },
   "devDependencies": {
