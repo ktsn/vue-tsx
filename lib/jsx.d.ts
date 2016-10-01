@@ -8,5 +8,9 @@ declare global {
     interface ElementAttributesProperty {
       _propsBrand: {}
     }
+
+    interface IntrinsicElements {
+      div: any
+    }
   }
 }
