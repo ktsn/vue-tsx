@@ -3,10 +3,8 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "jsx": "preserve",
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "declaration": true,
     "noEmit": true
   },
   "include": [

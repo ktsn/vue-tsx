@@ -9,7 +9,7 @@
     "experimentalDecorators": true
   },
   "include": [
-    "example/**/*.tsx",
-    "types/**/*.d.ts"
+    "**/*.tsx",
+    "../lib/**/*.d.ts"
   ]
 }
