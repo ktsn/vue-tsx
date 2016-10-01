@@ -1,0 +1,35 @@
+{
+  "name": "vue-tsx",
+  "version": "1.0.0",
+  "description": "TSX hook for Vue.js",
+  "keywords": [
+    "TSX",
+    "JSX",
+    "TypeScript",
+    "Vue.js"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "example": "tsc -p example && babel example -d example",
+    "lint": "tslint --project . && tslint --project example"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.1",
+    "babel-plugin-syntax-jsx": "^6.13.0",
+    "babel-plugin-transform-vue-jsx": "^3.1.0",
+    "babel-preset-latest": "^6.16.0",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3",
+    "vue": "^2.0.1",
+    "vue-class-component": "^4.0.1"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.1"
+  }
+}

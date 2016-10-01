@@ -1,0 +1,15 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "example/**/*.tsx",
+    "types/**/*.d.ts"
+  ]
+}
