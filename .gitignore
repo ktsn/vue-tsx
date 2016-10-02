@@ -1,3 +1,2 @@
 node_modules/
-example/*.js
-example/*.jsx
+example/build.js
