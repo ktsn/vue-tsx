@@ -1,12 +1,9 @@
 {
   "compileOnSave": false,
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
     "jsx": "preserve",
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "experimentalDecorators": true
+    "noEmit": false
   },
   "include": [
     "**/*.tsx",

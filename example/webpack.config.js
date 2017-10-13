@@ -8,11 +8,11 @@ module.exports = {
     filename: 'build.js'
   },
   resolve: {
-    extensions: ['', '.js', '.json', '.ts', '.tsx']
+    extensions: ['.js', '.json', '.ts', '.tsx']
   },
   module: {
     loaders: [
-      { test: /\.tsx?$/, loader: 'babel!ts' }
+      { test: /\.tsx?$/, loader: ['babel-loader', 'ts-loader'] }
     ]
   }
 }
